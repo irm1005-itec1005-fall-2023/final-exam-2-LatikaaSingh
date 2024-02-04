@@ -27,7 +27,7 @@
  *    ... your styles here ...
  * }
  */
-
+/*
  html {
   font-size: 1.0rem;
 }
@@ -41,6 +41,7 @@ body {
 /*
  * SR-ONLY
  */
+ /*
 .sr-only {
   position: absolute;
   width: 1px;
@@ -57,7 +58,7 @@ body {
 /*
  * SHARED STYLES
  */
-
+/*
 .page-container {
   max-width: 1000px;
   margin: 0 auto;
@@ -67,3 +68,193 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+ header
+ {
+   height: 60px;
+ }
+ header h1
+ {
+   font-size: 15px;
+   text-align: center;
+ }
+ header nav ul
+ {
+   display: flex;
+   margin-left: 70%;
+   list-style: none;
+ }
+ 
+ header nav ul li
+ {
+   padding-left: 10%;
+ }
+ 
+ header a
+ {
+   text-decoration: none;
+   color: brown;
+ }
+ #page-1 
+ {
+   background-color: bisque;
+   background-repeat: round;
+ }
+ #page-2
+ {
+   background-color: bisque; 
+ }
+ #page-3
+ {
+   background-color: bisque;
+ }
+ #page-4
+ {
+   background-color: bisque;
+ }
+ section
+ {
+  text-align: center;
+  color: brown;
+  height: 100vh;
+  border: 10px solid rosybrown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .container img
+   {
+     height: 250px;
+     margin-left: 40%;
+   }
+  .grid 
+  {
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-flow: column;
+    grid-template-columns: 180px 180px 180px 180px;
+    flex-wrap: wrap;
+  }
+.item-1
+{
+  background-color: brown;
+  color: bisque;
+  text-align: center;
+}
+
+.item-2
+{
+  background-color: brown;
+  color: bisque;
+  text-align: center;
+}
+
+.item-3
+{
+  background-color: brown;
+  color: bisque;
+  text-align: center;
+}
+
+.item-4
+{
+  background-color: brown;
+  color: bisque;
+  text-align: center;
+}
+
+.item-5
+{
+  background-color: brown;
+  color: bisque;
+  text-align: center;
+}
+
+.item-6
+{
+  background-color: brown;
+  color: bisque;
+  text-align: center;
+}
+
+#ContactBtn 
+{
+  padding: 0.5rem 5rem;
+  border-radius: 2px;
+  background-color: brown;
+  color: bisque;
+}
+
+#ContactBtn:hover 
+{
+  cursor: pointer;
+  background-color: rgba(172, 54, 54, 0.971);
+  border-radius: 50%;
+}
+
+.workImg
+{
+  display: grid;
+  grid-gap: 60px;
+  grid-template-columns: 100px 100px 100px 100px;
+  flex-wrap: wrap;
+  margin-bottom: 70%;
+}
+.work-1
+{
+  height: 150px;
+  width: 150px;
+}
+
+.work-2
+{
+  height: 150px;
+  width: 150px;
+}
+.work-3
+{
+  height: 150px;
+  width: 150px;
+}
+
+.work-4
+{
+  height: 150px;
+  width: 150px;
+}
+
+#form 
+{
+  padding: 0.5rem 5rem;
+  border-radius: 2px;
+  background-color: brown;
+  color: bisque;
+}
+
+#form:hover 
+{
+  cursor: pointer;
+  background-color: rgba(172, 54, 54, 0.971);
+  border-radius: 50%;
+}
+
+footer
+   {
+     height: 40px;
+   }
+   footer nav ul
+   {
+    display: flex;
+    margin-left: 70%;
+    list-style: none;
+   }
+     
+   footer nav ul li
+   {
+     padding-left: 10%;
+   }
+     
+   footer a
+   {
+     text-decoration: none;
+     color: brown;
+   }
